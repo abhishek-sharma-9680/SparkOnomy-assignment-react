@@ -1,0 +1,57 @@
+.time-filter {
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 16px 0;
+    background-color: white;
+  }
+  
+  .time-filter-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+  
+  .time-filter-title {
+    font-weight: 600;
+    color: #555;
+  }
+  
+  .time-filter-date {
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .time-filter-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  /* Common button style */
+  .time-filter-btn {
+    border: 1px solid #ddd;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: white;
+    color: #666;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .time-filter-btn:hover {
+    background-color: #f2f2f2;
+  }
+  
+  /* Active button */
+  .time-filter-btn.active {
+    border: 1px solid #e0b3ff;
+    background: linear-gradient(90deg, #f5e6ff, #f9f5ff);
+    color: purple;
+    font-weight: 500;
+  }
+  
